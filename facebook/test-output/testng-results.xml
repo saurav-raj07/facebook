@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Url Opened]]>
+    </line>
+    <line>
+      <![CDATA[logged in Sucessfully -->>]]>
+    </line>
+    <line>
+      <![CDATA[logged out sucessfully <<--]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52976" started-at="2018-11-03T17:21:34Z" finished-at="2018-11-03T17:22:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52976" started-at="2018-11-03T17:21:34Z" finished-at="2018-11-03T17:22:27Z">
+      <class name="com.testcases.TestCases">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.testcases.TestCases@3ecd23d9]" name="SetUp" is-config="true" duration-ms="46047" started-at="2018-11-03T17:21:34Z" finished-at="2018-11-03T17:22:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Url Opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.testcases.TestCases@3ecd23d9]" name="logintest" duration-ms="5080" started-at="2018-11-03T17:22:20Z" finished-at="2018-11-03T17:22:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in Sucessfully -->>]]>
+            </line>
+            <line>
+              <![CDATA[logged out sucessfully <<--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.testcases.TestCases@3ecd23d9]" name="testDown" is-config="true" duration-ms="1834" started-at="2018-11-03T17:22:25Z" finished-at="2018-11-03T17:22:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.testcases.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
